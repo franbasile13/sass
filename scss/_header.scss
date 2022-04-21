@@ -1,0 +1,19 @@
+@import 'variables';
+
+
+
+header{
+    background-color: black;
+    nav{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
